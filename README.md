@@ -48,10 +48,8 @@ link: https://docs.google.com/document/d/1wQmgBKdc1GmR1EY7qtFKqdFl0WdFV5_AwVOKWL
 - **Thauany** Ajustou a página da empresa Atlas.
 - **Larry** Fez alteração no css.
 - 
-  **Dia 15/06:**
-- **Thauany** ajustes no código
-- **Ana Clara** Ajustes no código
+  **Dia 11, 13, 15 e 16/06:**
+- **Thauany** Ajustes no código html e css.
+- **Ana Clara** Ajustes no código html e css.
 
-  **Dia 16/06:**
-- **Thauany** Ajustes no código
-- **Ana Clara** Ajustes no código 
+
