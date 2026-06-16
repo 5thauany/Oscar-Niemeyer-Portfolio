@@ -47,5 +47,11 @@ link: https://docs.google.com/document/d/1wQmgBKdc1GmR1EY7qtFKqdFl0WdFV5_AwVOKWL
 - **Ana Clara** Ajustou o formulário.
 - **Thauany** Ajustou a página da empresa Atlas.
 - **Larry** Fez alteração no css.
+- 
+  **Dia 15/06:**
+- **Thauany** ajustes no código
+- **Ana Clara** Ajustes no código
 
-
+  **Dia 16/06:**
+- **Thauany** Ajustes no código
+- **Ana Clara** Ajustes no código 
