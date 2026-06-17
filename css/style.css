@@ -1,3 +1,68 @@
+/* Estilização do Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Empurra a logo/texto para a esquerda e o menu para a direita */
+    padding: 20px 40px; /* Dá um espaçamento interno nas laterais e topo */
+    background-color: transparent; /* Garante que o fundo seja transparente para mostrar a imagem de trás */
+    width: 100%;
+}
+
+/* Alinha a imagem da logo e o texto "Oscar Niemeyer Arquitetura" lado a lado */
+header .logo, 
+header .escrita {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .logo {
+    height: 40px; /* Ajuste a altura da logo conforme necessário */
+    margin-right: 15px;
+}
+
+header .escrita {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: serif; /* Ou a fonte específica que usou para manter o estilo gótico/serifado */
+    font-weight: normal;
+}
+
+/* Estilização do Menu de Navegação (Links) */
+nav#a {
+    display: flex;
+    gap: 20px; /* Espaçamento entre cada link do menu */
+}
+
+nav#a a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+nav#a a:hover {
+    color: #cccccc; /* Efeito visual ao passar o mouse */
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 * {
     margin: 0;
