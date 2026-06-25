@@ -24,7 +24,7 @@
         flex-direction: column; 
         gap: 15px;             
         flex: 1; 
-        background-color: #f5f5f3;   
+        background-color: #000000;   
         border-radius: 20px;          
     }
 
@@ -52,7 +52,7 @@ h5
 
 h6
     {
-        color: #1a2e40;
+        color: #f3f3f5;
         font-size: 50px;
         margin: 0;
     }
@@ -96,7 +96,7 @@ h6
 #escrita
 {
     text-align: center;
-    color: #22252a;
+    color: #f5f5f3;
     font-size: 70px;
 }
 .tituloh6
