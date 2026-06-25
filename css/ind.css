@@ -8,7 +8,6 @@
       
         margin: 25px;
     }
-
 .sobreoscar1
     {
         display: flex;       
@@ -17,7 +16,6 @@
         margin-bottom: 50px;
         padding: 20px;
     }
-
 .sobreoscar2
     {
         display: flex;
@@ -27,72 +25,61 @@
         background-color: #000000;   
         border-radius: 20px;          
     }
-
-
 .foto-oscar
     {
         width: auto;
         height: auto;
         border-radius: 20px;  
     }
-
 h4 
     {
         text-align: center;
         margin: 20px;
         Font-size: 60px;
     }
-
 h5
     {
         text-align: right;
         margin: 20px;
         Font-size: 60px;
     }
-
 h6
     {
-        color: #f3f3f5;
+        color: #f5f5f3;
         font-size: 50px;
         margin: 0;
     }
-
 .divtotal
     {
         display: flex;
         gap: 170px;      
         justify-content: center;
     }
-
-
 .anosdemercado, .projetosconcluidos, .clientesatisfeitos, .premiosganhos
     {
-        background-color: #22252a;
+        background-color: #000000;
         border-radius: 20px;
         padding: 5px;
     
         height: auto;
-        width: 705px;
+        width: 700px;
     }
     
 .anosdemercado, .clientesatisfeitos
     {
         margin-bottom: 80px;
     }
-
 #escrita
     {
         color:#f5f5f3;
         font-size: 32px;
     }
-
 .mini-icon
 {
     height: auto;
         width: 40px;
         border-radius: 20px;
 }
-
 #escrita
 {
     text-align: center;
