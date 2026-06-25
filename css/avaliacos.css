@@ -1,4 +1,3 @@
-
 :root {
     --preto: #070708;
     --branco: #F5F5F3;
@@ -6,23 +5,21 @@
     --borda-radius: 20px;
 }
 
-
+ 
 body {
     margin: 0;
     padding-top: 125px;
+    padding-left: var(--espaco-lateral);
+    padding-right: var(--espaco-lateral);
     color: var(--branco);
-
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.5)),
-        url("../trabalhooscar/img/foto\ de\ fundo.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("../trabalhooscar/img/foto de fundo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin: 75px;
 }
 
 body#rede {
-    background-image: url("trabalhooscar/img/redessociais/insta\ fake.jpeg");
+    background-image: url("trabalhooscar/img/redessociais/insta fake.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -38,56 +35,12 @@ nav {
     display: block;
 }
 
-
-header {
-    background-color: var(--preto);
-    height: 120px;
-    width: 100%;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    width: 80px;
-    margin-left: var(--espaco-lateral);
-}
-
-
-#a {
-    display: flex;
-    gap: 30px;
-    font-size: 30px;
-    padding-right: 35px;
-    margin-bottom: -10px;
-}
-
-.escrita {
-    font-size: 35px;
-    font-weight: 100;
-    text-align: justify;
-}
-
-
-p.escrita,ul.escrita {
-    margin-left: -300px;
-    margin-bottom: 20px;
-}
-p.escrita{
-        margin-left: -550px;
-}
-
-
 p {
     font-size: 35px;
     font-weight: 100;
     text-align: justify;
 }
+
 
 h1 {
     font-size: 100px;
@@ -107,6 +60,53 @@ h3 {
 }
 
 
+header {
+    background-color: var(--preto);
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    width: 80px;
+    margin-left: var(--espaco-lateral);
+}
+
+.escrita {
+    font-size: 35px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+#a {
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    padding-right: 35px;
+    margin-bottom: -10px;
+}
+
+
+.container-flex {
+    display: flex;
+    gap: 100px;
+    margin-left: var(--espaco-lateral);
+    margin-right: 30px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.secao-conteudo {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
 
 .projetos,
 .obra,
@@ -123,25 +123,18 @@ h3 {
     margin-bottom: -90px;
 }
 
-.projetos {
-    font-weight: 200;
-    max-width: fit-content;
-    padding: 10px 15px 10px 20px;
-    margin-left: 85px;
-    margin-top: 100px;
-    margin-bottom: 40px;
-    white-space: nowrap;
-}
-
+.projetos, 
 .obra {
     font-weight: 200;
     max-width: fit-content;
     padding: 10px 15px 10px 20px;
     margin-left: 85px;
-    margin-top: 20px;
     margin-bottom: 40px;
     white-space: nowrap;
 }
+
+.projetos { margin-top: 100px; }
+.obra { margin-top: 20px; }
 
 #inter,
 #outras {
@@ -165,24 +158,6 @@ h3 {
     margin-left: var(--espaco-lateral);
 }
 
-
-
-.container-flex {
-    display: flex;
-    gap: 100px;
-    margin-left: var(--espaco-lateral);
-    margin-right: 30px;
-    align-items: center;
-    margin-bottom: 80px;
-}
-
-.secao-conteudo {
-    margin-top: 40px;
-    margin-bottom: 60px;
-}
-
-
-
 .img-port-bio {
     width: 500px;
     height: 550px;
@@ -190,24 +165,16 @@ h3 {
     border-radius: 10px;
 }
 
-
-
 .descricao {
     height: 400px;
-
     display: flex;
     align-items: center;
-
     box-sizing: border-box;
     padding: 25px;
-
     color: var(--branco);
     background-color: var(--preto);
-
     text-align: justify;
-
     border-radius: var(--borda-radius);
-
     overflow-y: auto;
 }
 
@@ -217,7 +184,6 @@ h3 {
     margin-top: 65px;
     font-size: 50px;
 }
-
 
 
 .alinhamento-biografia {
@@ -236,28 +202,18 @@ h3 {
 .alinhamento-biografia .descricao,
 .alinhamento-biografia .descricao-lista {
     flex: 1;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     background-color: var(--preto);
     border-radius: var(--borda-radius);
-
     padding: 40px;
     margin: 0;
-
     overflow-y: auto;
 }
 
-.alinhamento-biografia .descricao {
-    font-size: 30px;
-}
-
-.alinhamento-biografia .descricao-lista {
-    font-size: 28px;
-}
-
+.alinhamento-biografia .descricao { font-size: 30px; }
+.alinhamento-biografia .descricao-lista { font-size: 28px; }
 
 
 #lista-areas {
@@ -277,17 +233,18 @@ h3 {
     margin-bottom: 0;
 }
 
+.lista-quadrados {
+    border: var(--preto) 5px solid;
+    background-color: var(--preto);
+}
 
 
 #tabela {
     margin-top: 70px;
     margin-left: var(--espaco-lateral);
     margin-right: var(--espaco-lateral);
-
     background-color: var(--preto);
-
     border-radius: 15px;
-
     padding: 20px;
     box-sizing: border-box;
 }
@@ -296,7 +253,6 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-
     margin-top: 50px;
     margin-left: var(--espaco-lateral);
     margin-right: var(--espaco-lateral);
@@ -330,35 +286,16 @@ td {
 table td:first-child, 
 table th:first-child {
     border-right: 1px solid rgba(245, 245, 243, 0.3);
-    padding: -30px;
 }
 
 
-
-
-#congresso,
-#catedral,
-#onu,
-#stf,
-#jk {
+#congresso, #catedral, #onu, #stf, #jk {
     font-size: 30px;
 }
 
 
-
-
-.lista-quadrados{
-
-    border: var(--preto) 5px solid;
-    background-color: var(--preto);
-}
-
-
-
-
-
 .projects-section {
-    padding: 40px var(--espaco-lateral);
+    padding: 40px 0;
 }
 
 .projects-grid {
@@ -370,33 +307,28 @@ table th:first-child {
 .project-card {
     background-color: var(--preto);
     border-radius: var(--borda-radius);
-    padding: 20px;
+    padding: 25px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.card-title { font-size: 24px; margin-bottom: 10px; }
-.card-subtitle { font-size: 20px; color: #ccc; margin-bottom: 15px; }
-.info-list { list-style: none; padding: 0; }
-.projects-count { margin-top: 15px; font-size: 14px; opacity: 0.7; }
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 
+.card-subtitle {
+    font-size: 20px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
 
+.info-list {
+    list-style: none;
+    padding: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.projects-count {
+    margin-top: 15px;
+    font-size: 14px;
+    opacity: 0.7;
+}
